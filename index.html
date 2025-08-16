@@ -2,82 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Meow Asia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEOWASIA</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
+        .telegram-gradient {
+            background: linear-gradient(135deg, #ec4899, #f472b6);
         }
-        .wallpaper-container {
-            background-image: url('https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            width: 100vw;
+        .telegram-shadow {
+            box-shadow: 0 10px 30px -5px rgba(236, 72, 153, 0.3);
+        }
+        .wave-bg {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+        .wave-bg svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+        .wave-bg .shape-fill {
+            fill: #FFFFFF;
         }
     </style>
 </head>
-<body>
-    <div class="wallpaper-container flex items-center justify-center">
-        <div class="text-center">
-            <h1 class="text-white font-bold text-3xl md:text-4xl">Meow Asia</h1>
-            <p class="text-white text-base md:text-xl mt-2 px-4">Mai, Akemi, Chiyo, Himari, Mio, Izumi - Watch our spicy content - Hardcore, Painful, Spicy, Orgi</p>
-            <a href="https://www.fanvue.com/yoanna" 
-               class="mt-8 inline-block bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded-full transition duration-300 text-sm md:text-base">
-                Spicy content 🥵 
-            </a>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center relative overflow-hidden">
+        <div class="wave-bg">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
         </div>
-    </div>
-    
-    <div class="members-section p-4 md:p-8 bg-pink-100" style="background-image: url('https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg'); background-size: cover; background-position: center; transform: scaleY(-1);">
-        <div class="flex flex-wrap justify-center gap-4 md:gap-6" style="transform: scaleY(-1);">
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/9QB31CBd/20250805-230352.jpg" alt="Mai" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Mai</h3>
-                    <p class="text-pink-600">18 years old</p>
+        
+        <div class="container mx-auto px-4 py-12 z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-8 flex justify-center space-x-4">
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/sDpbDsqk/image.png" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/9QB31CBd/20250805-230352.jpg" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/8Ck209yq/20250811-062702.jpg" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/4dmrJtRP/20250811-062842.jpg" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/g0MCFsQr/IMG-3314.jpg" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
+                    <div class="inline-block rounded-full bg-white telegram-shadow overflow-hidden" style="width: 100px; height: 100px;">
+                        <img src="https://i.postimg.cc/x8mhm2Cb/IMG-20250813-003130-465.jpg" alt="CheapTech EU" class="w-full h-full object-cover">
+                    </div>
                 </div>
-            </div>
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/8Ck209yq/20250811-062702.jpg" alt="Akemi" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Akemi</h3>
-                    <p class="text-pink-600">18 years old</p>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">SIX GIRLS FOR THE PRICE OF ONE</h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                    🥵 Watch our spicy content 🥵 hardcore - painful - gangbang 🥵
+                </p>
+                <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                    • Mai • Akemi • Chiyo • Himari • Mio • Izumi
+                </p>
+                
+                <div class="telegram-pulse">
+                    <button id="telegramBtn" class="telegram-gradient hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 telegram-shadow mx-auto">
+                        Watch now
+                    </button>
                 </div>
-            </div>
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/4dmrJtRP/20250811-062842.jpg" alt="Chiyo" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Chiyo</h3>
-                    <p class="text-pink-600">18 years old</p>
-                </div>
-            </div>
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/g0MCFsQr/IMG-3314.jpg" alt="Himari" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Himari</h3>
-                    <p class="text-pink-600">18 years old</p>
-                </div>
-            </div>
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/sDpbDsqk/image.png" alt="Mio" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Mio</h3>
-                    <p class="text-pink-600">18 years old</p>
-                </div>
-            </div>
-            <div class="member-card bg-pink-50 border-2 border-pink-300 rounded-lg overflow-hidden shadow-lg w-64 transform hover:scale-105 transition duration-300">
-                <img src="https://i.postimg.cc/x8mhm2Cb/IMG-20250813-003130-465.jpg" alt="Izumi" class="w-full h-64 object-cover">
-                <div class="p-4">
-                    <h3 class="text-pink-800 text-xl font-bold">Izumi</h3>
-                    <p class="text-pink-600">18 years old</p>
-                </div>
+                
             </div>
         </div>
-    </div>
+    </main>
+
+    <script>
+        document.getElementById('telegramBtn').addEventListener('click', function() {
+            window.location.href = 'https://www.fanvue.com/meowasia';
+        });
+    </script>
 </body>
 </html>
